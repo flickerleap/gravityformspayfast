@@ -1,0 +1,9 @@
+{
+    "name": "flickerleap/gravityformspayfast",
+    "type": "fwordpress-plugin",
+    "license": "GPL",
+    "minimum-stability": "stable",
+    "require": {
+        "flickerleap/gravityforms": "^2.2.3"
+    }
+}
