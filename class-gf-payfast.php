@@ -600,12 +600,12 @@ class GFPayFast extends GFPaymentAddOn
 
         $varArray['custom_int2'] = $form['id'];
 
-        if ( !is_null( $pfNotifications[0] ) )
+        if ( isset($pfNotifications[0]) && !is_null( $pfNotifications[0] ) )
         {
             $varArray['custom_str1'] = $pfNotifications[0];
         }
 
-        if ( !is_null( $pfNotifications[1] ) )
+        if ( isset($pfNotifications[1]) && !is_null( $pfNotifications[1] ) )
         {
             $varArray['custom_str2'] = $pfNotifications[1];
         }
